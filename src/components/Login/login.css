@@ -1,0 +1,45 @@
+/* for LoginForm.jsx */
+.custom-bg {
+  background-color: #e2e8dd;
+}
+
+.custom-form {
+  border-radius: 34px;
+  background: #ffffff;
+  box-shadow: 2px 2px 4px #f5f5f5, -1px -1px 2px #f5f5f5;
+}
+
+.custom-input {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: rgb(100, 98, 98);
+}
+
+.form-wrapper {
+  position: relative;
+}
+
+.form-wrapper::after {
+  content: "";
+  position: absolute;
+  height: 0.5px;
+  top: 1.8rem;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: gray;
+}
+
+
+/* for LoginBg.jsx */
+.bg-block-1 {
+  border-radius: 15px 0px 0px 15px;
+}
+
+.bg-block-2 {
+  border-radius: 0px 15px 15px 0px;
+}
